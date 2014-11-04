@@ -2,7 +2,14 @@
 ==================
 
 ## Description
-A zoom slider widget for [Leaflet][2]
+A zoom slider widget for [Leaflet][2], updated by MLVL to include
+
+* A Bower.json file
+* Improved styling
+
+![ScreenShot](/leaflet-zoomslider.png)
+
+# Original README
 
 Tested with Chrome, IE 7-9 and Firefox. 
 
