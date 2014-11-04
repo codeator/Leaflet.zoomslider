@@ -113,7 +113,8 @@
 				ui.wrap    = L.DomUtil.create('div', ns + '-wrap leaflet-bar-part', ui.bar);
 				ui.zoomOut = this._createZoomBtn('out', 'bottom', ui.bar);
 				ui.body    = L.DomUtil.create('div', ns + '-body', ui.wrap);
-				ui.knob    = L.DomUtil.create('div', ns + '-knob');
+				ui.knob    = L.DomUtil.create('div', ns + '-knob', ui.wrapKnob);
+				ui.knobBar = L.DomUtil.create('div', ns + "-knob-bar", ui.knob);
 
 				L.DomEvent.disableClickPropagation(ui.bar);
 				L.DomEvent.disableClickPropagation(ui.knob);
