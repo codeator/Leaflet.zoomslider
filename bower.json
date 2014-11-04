@@ -1,6 +1,6 @@
 {
   "name": "Leaflet.zoomslider",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "ignore": [],
   "dependencies": {
     "leaflet": "~0.7.3"
