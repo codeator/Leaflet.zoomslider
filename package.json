@@ -10,16 +10,13 @@
 		"Alexis THOMAS (https://github.com/ath0mas)"
 	],
 	"description": "A zoom slider widget for Leaflet",
-	"dependencies": {
-		"leaflet": "~0.7.1"
-	},
 	"devDependencies": {
-		"mocha": "~1.9.0",
-		"expect.js": "~0.2.0",
-		"grunt": "~0.4.1",
-		"grunt-karma": "~0.6.2",
-		"grunt-contrib-jshint": "~0.7.2",
-		"karma-mocha": "~0.1.1"
+		"mocha": "~2.0.1",
+		"expect.js": "~0.3.1",
+		"grunt": "~0.4.5",
+		"grunt-karma": "~0.9.0",
+		"grunt-contrib-jshint": "~0.10.0",
+		"karma-mocha": "~0.1.9"
 	},
 	"main": "src/L.Control.Zoomslider.js",
 	"repository": {

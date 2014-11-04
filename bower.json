@@ -1,0 +1,18 @@
+{
+  "name": "Leaflet.zoomslider",
+  "version": "0.7.0",
+  "ignore": [],
+  "dependencies": {},
+  "main": "src/L.Control.Zoomslider.js",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    ".gitignore"
+  ],
+  "scripts": [
+    "src/L.Control.Zoomslider.js"
+  ],
+  "dependencies": {
+    "leaflet": "~0.7.3"
+  }
+}
